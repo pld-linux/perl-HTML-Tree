@@ -1,13 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
-Summary: 	HTML-Tree perl module
+Summary:	HTML-Tree perl module
 Summary(pl):	Modu³ perla HTML-Tree
-Name: 		perl-HTML-Tree
-Version: 	0.62
-Release: 	2
-License: 	GPL
+Name:		perl-HTML-Tree
+Version:	0.62
+Release:	2
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-Tree-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-Tree-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-HTML-Parser >= 2.19
@@ -23,8 +23,9 @@ information from HTML syntax trees. Modules included: HTML::Element,
 HTML::TreeBuilder, HTML::AsSubs, HTML::Parse.
 
 %description -l pl
-Kolekcja modu³ów do operowania na drzewach sk³adni HTML. Pakiet zawiera 
-modu³y: HTML::Element, HTML::TreeBuilder, HTML::AsSubs, HTML::Parse.
+Kolekcja modu³ów do operowania na drzewach sk³adni HTML. Pakiet
+zawiera modu³y: HTML::Element, HTML::TreeBuilder, HTML::AsSubs,
+HTML::Parse.
 
 %prep
 %setup -q -n HTML-Tree-%{version}
