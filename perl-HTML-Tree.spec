@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Tree
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML-Tree perl module
 Summary(pl):	Modu³ perla HTML-Tree
 Name:		perl-HTML-Tree
 Version:	3.11
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -29,7 +28,7 @@ zawiera modu³y: HTML::Element, HTML::TreeBuilder, HTML::AsSubs,
 HTML::Parse.
 
 %prep
-%setup -q -n HTML-Tree-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
