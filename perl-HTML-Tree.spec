@@ -23,7 +23,7 @@ Summary(sv):	HTML::Tree Perlmodul
 Summary(uk):	Модуль для Perl HTML::Tree
 Summary(zh_CN):	HTML::Tree Perl дё©И
 Name:		perl-HTML-Tree
-Version:	3.16
+Version:	3.17
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
