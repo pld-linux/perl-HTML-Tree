@@ -25,7 +25,8 @@ Summary(zh_CN):	HTML::Tree Perl Ä£¿é
 Name:		perl-HTML-Tree
 Version:	3.18
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6a9e4e565648c9772e7d8ec6d4392497
