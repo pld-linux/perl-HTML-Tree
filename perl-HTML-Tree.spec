@@ -15,7 +15,7 @@ BuildRequires:	perl-HTML-Parser >= 2.19
 Requires:	%{perl_sitearch}
 # do not change to BuildRequires
 Requires:	perl-HTML-Format
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is a collection of modules that represent, create and extract
