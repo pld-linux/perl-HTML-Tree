@@ -5,23 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Tree
-Summary:	HTML::Tree Perl module
-Summary(cs):	Modul HTML::Tree pro Perl
-Summary(da):	Perlmodul HTML::Tree
-Summary(de):	HTML::Tree Perl Modul
-Summary(es):	Módulo de Perl HTML::Tree
-Summary(fr):	Module Perl HTML::Tree
-Summary(it):	Modulo di Perl HTML::Tree
-Summary(ja):	HTML::Tree Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	HTML::Tree ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul HTML::Tree
-Summary(pl):	Modu³ Perla HTML::Tree
-Summary(pt):	Módulo de Perl HTML::Tree
-Summary(pt_BR):	Módulo Perl HTML::Tree
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl HTML::Tree
-Summary(sv):	HTML::Tree Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl HTML::Tree
-Summary(zh_CN):	HTML::Tree Perl Ä£¿é
+Summary:	A suite for making parse trees out of HTML source
+Summary(pl):	Pakiet do tworzenie przetworzonych drzew ¼ród³a w HTML-u
 Name:		perl-HTML-Tree
 Version:	3.18
 Release:	1
