@@ -23,12 +23,12 @@ Summary(sv):	HTML::Tree Perlmodul
 Summary(uk):	Модуль для Perl HTML::Tree
 Summary(zh_CN):	HTML::Tree Perl дё©И
 Name:		perl-HTML-Tree
-Version:	3.17
-Release:	2
+Version:	3.18
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9ad9c5506bf2c11ee974949f6fdb8d1f
+# Source0-md5:	6a9e4e565648c9772e7d8ec6d4392497
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-HTML-Parser >= 2.19
