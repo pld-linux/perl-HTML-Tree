@@ -3,7 +3,7 @@ Summary:	HTML-Tree perl module
 Summary(pl):	Modu³ perla HTML-Tree
 Name:		perl-HTML-Tree
 Version:	3.11
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -14,6 +14,7 @@ BuildRequires:	perl >= 5.6
 BuildRequires:	perl-HTML-Parser >= 2.19
 # do not change to BuildRequires
 Requires:	perl-HTML-Format
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
