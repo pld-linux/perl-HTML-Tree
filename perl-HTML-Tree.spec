@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	Tree
+%define		pdir	HTML
+%define		pnam	Tree
 Summary:	A suite for making parse trees out of HTML source
 Summary(pl):	Pakiet do tworzenie przetworzonych drzew ¼ród³a w HTML-u
 Name:		perl-HTML-Tree
