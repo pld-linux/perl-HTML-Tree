@@ -14,7 +14,7 @@ Summary(fr):	Module Perl HTML::Tree
 Summary(it):	Modulo di Perl HTML::Tree
 Summary(ja):	HTML::Tree Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	HTML::Tree ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul HTML::Tree
+Summary(nb):	Perlmodul HTML::Tree
 Summary(pl):	Modu³ Perla HTML::Tree
 Summary(pt):	Módulo de Perl HTML::Tree
 Summary(pt_BR):	Módulo Perl HTML::Tree
