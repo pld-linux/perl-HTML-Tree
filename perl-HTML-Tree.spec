@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Tree
-Summary:	HTML-Tree perl module
-Summary(pl):	Modu³ perla HTML-Tree
+Summary:	HTML::Tree perl module
+Summary(pl):	Modu³ perla HTML::Tree
 Name:		perl-HTML-Tree
 Version:	3.11
 Release:	5
