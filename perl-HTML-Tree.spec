@@ -21,13 +21,11 @@ BuildRoot:	/tmp/%{name}-%{version}-root
 %description
 This is a collection of modules that represent, create and extract
 information from HTML syntax trees. Modules included: HTML::Element,
-HTML::TreeBuilder, HTML::AsSubs, HTML::Formatter, HTML::FormatText,
-HTML::FormatPS.
+HTML::TreeBuilder, HTML::AsSubs, HTML::Parse.
 
 %description -l pl
 Kolekcja modu³ów do operowania na drzewach sk³adni HTML. Pakiet zawiera 
-modu³y: HTML::Element, HTML::TreeBuilder, HTML::AsSubs, HTML::Formatter, 
-HTML::FormatText, HTML::FormatPS.
+modu³y: HTML::Element, HTML::TreeBuilder, HTML::AsSubs, HTML::Parse.
 
 %prep
 %setup -q -n HTML-Tree-%{version}
