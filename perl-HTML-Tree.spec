@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Tree
 Summary:	A suite for making parse trees out of HTML source
-Summary(pl.UTF-8):   Pakiet do tworzenie przetworzonych drzew źródła w HTML-u
+Summary(pl.UTF-8):	Pakiet do tworzenie przetworzonych drzew źródła w HTML-u
 Name:		perl-HTML-Tree
 Version:	3.21
 Release:	1
