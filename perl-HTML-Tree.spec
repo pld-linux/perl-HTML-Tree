@@ -1,25 +1,29 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	HTML
 %define		pnam	Tree
+%include	/usr/lib/rpm/macros.perl
 Summary:	A suite for making parse trees out of HTML source
 Summary(pl.UTF-8):	Pakiet do tworzenie przetworzonych drzew źródła w HTML-u
 Name:		perl-HTML-Tree
-Version:	4.2
+Version:	5.02
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a145ad037ac54b6192c0046383d267da
+# Source0-md5:	e82037a19710924e99acd2d14435c999
 URL:		http://search.cpan.org/dist/HTML-Tree/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-Module-Build
+%if %{with tests}
 BuildRequires:	perl-HTML-Parser >= 3.46
 BuildRequires:	perl-HTML-Tagset >= 3.02
+BuildRequires:	perl-Test-Fatal
+%endif
 # HTML::FormatText used in HTML::Element by default; don't use as BuildRequires (loop)
 Requires:	perl-HTML-Format
 Requires:	perl-HTML-Parser >= 3.46
@@ -40,17 +44,16 @@ HTML::Parse.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL \
-	INSTALLDIRS=vendor
-%{__make}
+%{__perl} Build.PL \
+	destdir=$RPM_BUILD_ROOT \
+	installdirs=vendor
+./Build
 
-%{?with_tests:%{__make} test}
+%{?with_tests:./Build test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
-%{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT
+./Build install
 
 # for external HTML::TreeBuilder subclasses
 install -d $RPM_BUILD_ROOT%{perl_vendorlib}/HTML/TreeBuilder
