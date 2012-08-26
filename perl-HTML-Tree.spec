@@ -18,7 +18,7 @@ Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.t
 URL:		http://search.cpan.org/dist/HTML-Tree/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	perl-Module-Build
+BuildRequires:	perl-Module-Build >= 0.2808
 %if %{with tests}
 BuildRequires:	perl-HTML-Parser >= 3.46
 BuildRequires:	perl-HTML-Tagset >= 3.02
