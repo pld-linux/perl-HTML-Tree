@@ -9,7 +9,7 @@ Summary:	A suite for making parse trees out of HTML source
 Summary(pl.UTF-8):	Pakiet do tworzenie przetworzonych drzew źródła w HTML-u
 Name:		perl-HTML-Tree
 Version:	5.03
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
