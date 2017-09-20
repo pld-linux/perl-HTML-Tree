@@ -8,13 +8,13 @@
 Summary:	A suite for making parse trees out of HTML source
 Summary(pl.UTF-8):	Pakiet do tworzenie przetworzonych drzew źródła w HTML-u
 Name:		perl-HTML-Tree
-Version:	5.03
-Release:	3
+Version:	5.07
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d9271d60b872ed6fbe68b2d0fe8c450e
+# Source0-md5:	7d22aa8fda76a60a88ce47bc63f4d21d
 URL:		http://search.cpan.org/dist/HTML-Tree/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -75,6 +75,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorlib}/HTML/Element
 %{perl_vendorlib}/HTML/Element/traverse.pm
 %dir %{perl_vendorlib}/HTML/TreeBuilder
+%{_mandir}/man1/htmltree.1*
 %{_mandir}/man3/HTML::AsSubs.3pm*
 %{_mandir}/man3/HTML::Element*.3pm*
 %{_mandir}/man3/HTML::Parse.3pm*
