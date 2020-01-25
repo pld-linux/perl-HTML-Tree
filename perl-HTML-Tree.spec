@@ -4,7 +4,6 @@
 
 %define		pdir	HTML
 %define		pnam	Tree
-%include	/usr/lib/rpm/macros.perl
 Summary:	A suite for making parse trees out of HTML source
 Summary(pl.UTF-8):	Pakiet do tworzenie przetworzonych drzew źródła w HTML-u
 Name:		perl-HTML-Tree
